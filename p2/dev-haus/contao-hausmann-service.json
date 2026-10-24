@@ -4,6 +4,49 @@
             {
                 "name": "dev-haus/contao-hausmann-service",
                 "description": "Service-Bundle von Hausmann Media für betreute Contao-Sites: MCP-Endpunkt für Claude mit Diagnose-Werkzeugen, Backup auf SFTP/FTPS.",
+                "version": "0.9.0",
+                "version_normalized": "0.9.0.0",
+                "type": "contao-bundle",
+                "license": [
+                    "proprietary"
+                ],
+                "homepage": "https://www.hausmann-media.de/",
+                "require": {
+                    "php": "^8.1",
+                    "composer-runtime-api": "^2.1",
+                    "contao/core-bundle": "^4.13 || ^5.3",
+                    "doctrine/dbal": "^2.13 || ^3.0 || ^4.0",
+                    "mcp/sdk": "0.8.1",
+                    "nyholm/psr7": "^1.8",
+                    "phpseclib/phpseclib": "^3.0.36",
+                    "symfony/config": "^5.4 || ^6.4 || ^7.0",
+                    "symfony/dependency-injection": "^5.4 || ^6.4 || ^7.0",
+                    "symfony/http-foundation": "^5.4 || ^6.4 || ^7.0",
+                    "symfony/http-kernel": "^5.4 || ^6.4 || ^7.0",
+                    "symfony/psr-http-message-bridge": "^2.1 || ^6.4 || ^7.0"
+                },
+                "conflict": {
+                    "contao/manager-plugin": "<2.0 || >=3.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Hausmann\\ContaoService\\": "src/"
+                    }
+                },
+                "extra": {
+                    "contao-manager-plugin": "Hausmann\\ContaoService\\ContaoManager\\Plugin"
+                },
+                "time": "2026-10-24T17:23:30+00:00",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dev-haus/contao-hausmann-service/zipball/ba9635e68b67f79ae1d9479e5d3cd4cb6d1412cb",
+                    "reference": "ba9635e68b67f79ae1d9479e5d3cd4cb6d1412cb",
+                    "shasum": ""
+                }
+            },
+            {
+                "name": "dev-haus/contao-hausmann-service",
+                "description": "Service-Bundle von Hausmann Media für betreute Contao-Sites: MCP-Endpunkt für Claude mit Diagnose-Werkzeugen, Backup auf SFTP/FTPS.",
                 "version": "0.8.0",
                 "version_normalized": "0.8.0.0",
                 "type": "contao-bundle",
