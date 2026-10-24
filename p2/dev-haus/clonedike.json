@@ -4,6 +4,35 @@
             {
                 "name": "dev-haus/clonedike",
                 "description": "Clonedike von Hausmann Media: Contao-Sites klonen – Kern als Bibliothek und Kommandozeile (erfassen: Probelauf vor dem Klonen, nur lesend).",
+                "version": "0.3.0",
+                "version_normalized": "0.3.0.0",
+                "type": "library",
+                "license": [
+                    "proprietary"
+                ],
+                "homepage": "https://www.hausmann-media.de/",
+                "require": {
+                    "php": "^8.1"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Hausmann\\Clonedike\\": "src/"
+                    }
+                },
+                "bin": [
+                    "bin/clonedike"
+                ],
+                "time": "2026-10-24T12:25:34+00:00",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dev-haus/clonedike/zipball/00262c8931c8c5850fa45cd9539a06f6e59bc333",
+                    "reference": "00262c8931c8c5850fa45cd9539a06f6e59bc333",
+                    "shasum": ""
+                }
+            },
+            {
+                "name": "dev-haus/clonedike",
+                "description": "Clonedike von Hausmann Media: Contao-Sites klonen – Kern als Bibliothek und Kommandozeile (erfassen: Probelauf vor dem Klonen, nur lesend).",
                 "version": "0.2.0",
                 "version_normalized": "0.2.0.0",
                 "type": "library",
