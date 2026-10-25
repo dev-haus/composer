@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "dev-haus/argos": [
+            {
+                "name": "dev-haus/argos",
+                "description": "Argos von Hausmann Media: zentrales Portal für betreute Sites (Bestand, Versionen, Berichte) – Contao-5.7-Bundle mit eigenem Kern, noch ohne Fachfunktionen.",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "type": "contao-bundle",
+                "license": [
+                    "proprietary"
+                ],
+                "homepage": "https://www.hausmann-media.de/",
+                "require": {
+                    "php": "^8.3",
+                    "contao/core-bundle": "^5.7",
+                    "symfony/config": "^7.0",
+                    "symfony/dependency-injection": "^7.0",
+                    "symfony/http-kernel": "^7.0",
+                    "symfony/security-core": "^7.0"
+                },
+                "conflict": {
+                    "contao/manager-plugin": "<2.0 || >=3.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Hausmann\\Argos\\": "src/"
+                    }
+                },
+                "extra": {
+                    "contao-manager-plugin": "Hausmann\\Argos\\ContaoManager\\Plugin"
+                },
+                "time": "2026-10-25T13:50:26+00:00",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dev-haus/argos/zipball/ffdf8f482ffcf5b8c73ef5ef2a86956590f7b8b2",
+                    "reference": "ffdf8f482ffcf5b8c73ef5ef2a86956590f7b8b2",
+                    "shasum": ""
+                }
+            }
+        ]
+    }
+}
