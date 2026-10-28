@@ -4,6 +4,53 @@
             {
                 "name": "dev-haus/argos",
                 "description": "Argos von Hausmann Media: zentrales Portal für betreute Sites – Kunden, Systeme, Berichte argos-bericht/1, Bestand mit Versionssuche und ein lesender MCP-Zugang für Claude (OAuth). Contao-5.7-Bundle mit eigenem Kern.",
+                "version": "0.5.0",
+                "version_normalized": "0.5.0.0",
+                "type": "contao-bundle",
+                "license": [
+                    "proprietary"
+                ],
+                "homepage": "https://www.hausmann-media.de/",
+                "require": {
+                    "php": "^8.3",
+                    "contao/core-bundle": "^5.7",
+                    "doctrine/dbal": "^3.7 || ^4.3",
+                    "mcp/sdk": "0.8.1",
+                    "nyholm/psr7": "^1.8",
+                    "psr/log": "^1.1 || ^2.0 || ^3.0",
+                    "symfony/config": "^7.0",
+                    "symfony/console": "^7.0",
+                    "symfony/dependency-injection": "^7.0",
+                    "symfony/http-foundation": "^7.0",
+                    "symfony/http-kernel": "^7.0",
+                    "symfony/psr-http-message-bridge": "^7.0",
+                    "symfony/routing": "^7.0",
+                    "symfony/security-bundle": "^7.0",
+                    "symfony/security-core": "^7.0",
+                    "symfony/security-csrf": "^7.0"
+                },
+                "conflict": {
+                    "contao/manager-plugin": "<2.0 || >=3.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Hausmann\\Argos\\": "src/"
+                    }
+                },
+                "extra": {
+                    "contao-manager-plugin": "Hausmann\\Argos\\ContaoManager\\Plugin"
+                },
+                "time": "2026-10-28T20:40:53+00:00",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dev-haus/argos/zipball/20b500e979dc36e05e1171d300f0ceecbb185183",
+                    "reference": "20b500e979dc36e05e1171d300f0ceecbb185183",
+                    "shasum": ""
+                }
+            },
+            {
+                "name": "dev-haus/argos",
+                "description": "Argos von Hausmann Media: zentrales Portal für betreute Sites – Kunden, Systeme, Berichte argos-bericht/1, Bestand mit Versionssuche und ein lesender MCP-Zugang für Claude (OAuth). Contao-5.7-Bundle mit eigenem Kern.",
                 "version": "0.4.0",
                 "version_normalized": "0.4.0.0",
                 "type": "contao-bundle",
