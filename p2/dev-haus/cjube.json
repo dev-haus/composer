@@ -4,6 +4,52 @@
             {
                 "name": "dev-haus/cjube",
                 "description": "cjube. – the many dimensions of life. Kuratierte Videos von Hausmann Media: Datenkern, Archiv 2011–2016, eigene Website mit TV-Modus und JSON-API, Einreichen mit einem Klick, MCP-Werkzeuge für Claude. Contao-5.7-Bundle.",
+                "version": "0.40.0",
+                "version_normalized": "0.40.0.0",
+                "type": "contao-bundle",
+                "license": [
+                    "proprietary"
+                ],
+                "homepage": "https://cjube.com/",
+                "require": {
+                    "php": "^8.3",
+                    "contao/core-bundle": "^5.7",
+                    "doctrine/dbal": "^3.7 || ^4.3",
+                    "league/commonmark": "^2.2",
+                    "psr/log": "^1.1 || ^2.0 || ^3.0",
+                    "symfony/config": "^7.0",
+                    "symfony/console": "^7.0",
+                    "symfony/dependency-injection": "^7.0",
+                    "symfony/http-client-contracts": "^3.0",
+                    "symfony/http-foundation": "^7.0",
+                    "symfony/http-kernel": "^7.0",
+                    "symfony/routing": "^7.0",
+                    "symfony/security-bundle": "^7.0",
+                    "symfony/security-csrf": "^7.0",
+                    "twig/twig": "^3.8"
+                },
+                "conflict": {
+                    "contao/manager-plugin": "<2.0 || >=3.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Hausmann\\Cjube\\": "src/"
+                    }
+                },
+                "extra": {
+                    "contao-manager-plugin": "Hausmann\\Cjube\\ContaoManager\\Plugin"
+                },
+                "time": "2026-11-10T16:23:17+00:00",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/dev-haus/cjube/zipball/ea2257967c472c6a8275e407efdd74a02d01b8d2",
+                    "reference": "ea2257967c472c6a8275e407efdd74a02d01b8d2",
+                    "shasum": ""
+                }
+            },
+            {
+                "name": "dev-haus/cjube",
+                "description": "cjube. – the many dimensions of life. Kuratierte Videos von Hausmann Media: Datenkern, Archiv 2011–2016, eigene Website mit TV-Modus und JSON-API, Einreichen mit einem Klick, MCP-Werkzeuge für Claude. Contao-5.7-Bundle.",
                 "version": "0.39.1",
                 "version_normalized": "0.39.1.0",
                 "type": "contao-bundle",
